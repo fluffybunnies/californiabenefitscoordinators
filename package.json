@@ -1,0 +1,22 @@
+{
+	"name": "californiabenefitscoordinators",
+	"version": "0.0.0",
+	"description": "California Benefits Coordinators",
+	"keywords": [
+	],
+	"author": "fluffybunnies",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:fluffybunnies/californiabenefitscoordinators.git"
+	},
+	"homepage": "https://github.com/fluffybunnies/californiabenefitscoordinators",
+	"bugs": {
+		"url": "https://github.com/fluffybunnies/californiabenefitscoordinators/issues"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	},
+	"scripts": {
+	}
+}
