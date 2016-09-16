@@ -22,8 +22,8 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url($qode_options_proya['favicon_image']); ?>">
-	<link rel="apple-touch-icon" href="<?php echo esc_url($qode_options_proya['favicon_image']); ?>"/>
+	<?php //echo esc_url($qode_options_proya['favicon_image']); ?>
+	<link href='https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_64,w_64/v1/730940/TheHartGroup_m04q2b.png' rel='shortcut icon' type='image/x-icon'> <link href="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_60,w_60/v1/730940/TheHartGroup_m04q2b.png" rel="apple-touch-icon" sizes="60x60"/> <link href="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_76,w_76/v1/730940/TheHartGroup_m04q2b.png" rel="apple-touch-icon" sizes="76x76"/> <link href="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_120,w_120/v1/730940/TheHartGroup_m04q2b.png" rel="apple-touch-icon" sizes="120x120"/> <link href="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_152,w_152/v1/730940/TheHartGroup_m04q2b.png" rel="apple-touch-icon" sizes="152x152"/>
 	<?php wp_head(); ?>
 </head>
 

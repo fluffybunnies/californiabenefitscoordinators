@@ -193,6 +193,8 @@ if (!function_exists('qode_styles')) {
         	wp_enqueue_style("custom_css", QODE_ROOT . "/css/custom_css.php");
     }
 
+	wp_enqueue_style('cbc_style', QODE_ROOT.'/css/cbc.css');
+
 	add_action('wp_enqueue_scripts', 'qode_styles');
 }
 
@@ -394,6 +396,8 @@ if (!function_exists('qode_scripts')) {
             wp_enqueue_script("select2", QODE_ROOT."/js/select2.min.js",array(),false,true);
         }
     }
+
+	wp_enqueue_script( 'cherieculture-blog-chic', get_template_directory_uri() . '/js/cbc.js', array(), '', true );
 
 	add_action('wp_enqueue_scripts', 'qode_scripts');
 }

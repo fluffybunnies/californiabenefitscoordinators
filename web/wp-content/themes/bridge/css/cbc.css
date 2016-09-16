@@ -1,0 +1,65 @@
+/* CBC Styles */
+
+
+/* BEGIN Fonts */
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+@import url(https://fonts.googleapis.com/css?family=Lora:400);*/
+/* END Fonts */
+
+
+/*
+body {
+	font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Lora, serif;
+	font-weight: 400;
+}
+a, a:visited, a:active {
+	color: #555;
+	text-decoration: none;
+}
+a:hover {
+	color: #da998c;
+	text-decoration: none;
+}
+*/
+a.nostyle, a.nostyle:visited, a.nostyle:active, a.nostyle:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+a.link-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url(../img/blank.gif);
+}
+div.clear {
+  clear: both;
+  width: auto;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.q_logo img {
+	border: 1px solid #eee;
+}
+
+
+/* BEGIN cbc */
+.chic-loader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5) url(../img/loader03.gif) no-repeat center center;
+}
+/* END cbc */
+
